@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ page isELIgnored="false"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +15,8 @@
 	crossorigin="anonymous">
 </head>
 <body>
+	<h1 class=text-center>${msg }</h1>
+	<h2 class=text-center>URI template variable : ${name }</h2>
 	<div class="container mt-5">
 		<div class="card">
 			<div class="card-body">

@@ -12,5 +12,6 @@
 	<h1>Complete data from the form : </h1>
 	<h2>${user }</h2>
 	<h2>Address Stree : ${user.address.street }</h2>
+
 </body>
 </html>
