@@ -39,6 +39,7 @@ public class SearchController {
 	}
 	
 	/* Handling NullPointerException */
+	/*
 	@ResponseStatus(value=HttpStatus.INTERNAL_SERVER_ERROR)
 	@ExceptionHandler(NullPointerException.class)
 	public String exceptionHandler(Model m)
@@ -46,5 +47,6 @@ public class SearchController {
 		m.addAttribute("msg","NullPointerException has occured.");
 		return "error";
 	}
+	*/
 
 }
