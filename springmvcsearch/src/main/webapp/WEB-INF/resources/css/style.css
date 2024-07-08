@@ -1,0 +1,72 @@
+/* Setting image dimensions */
+.image-size {
+  width: 300px;  /* Set the width of the image */
+  height: 200px; /* Set the height of the image */
+}
+
+/* Setting maximum dimensions */
+.image-max-size {
+  max-width: 100%; /* Image won't be wider than its container */
+  height: auto;    /* Maintain aspect ratio */
+}
+
+/* Applying border to an image */
+.image-border {
+  border: 5px solid #000; /* Solid black border with 5px width */
+  border-radius: 10px;    /* Rounded corners */
+}
+
+/* Adding shadow to an image */
+.image-shadow {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Shadow with offset and blur */
+}
+
+/* Rotating an image */
+.image-rotate {
+  transform: rotate(45deg); /* Rotate image by 45 degrees */
+}
+
+/* Adding a grayscale effect to an image */
+.image-grayscale {
+  filter: grayscale(100%); /* Apply full grayscale */
+}
+
+/* Adding a sepia effect to an image */
+.image-sepia {
+  filter: sepia(100%); /* Apply full sepia tone */
+}
+
+/* Adding a blur effect to an image */
+.image-blur {
+  filter: blur(5px); /* Apply blur with 5px radius */
+}
+
+/* Applying multiple filters to an image */
+.image-multiple-filters {
+  filter: brightness(1.2) contrast(1.5) saturate(2); /* Brighten, increase contrast, and saturate the image */
+}
+
+/* Adding a hover effect */
+.image-hover:hover {
+  transform: scale(1.1); /* Enlarge the image slightly on hover */
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+/* Applying opacity to an image */
+.image-opacity {
+  opacity: 0.7; /* Set opacity to 70% */
+}
+
+/* Making an image circular */
+.image-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover;  /* Cover the entire element */
+}
+
+/* Making an image responsive */
+.image-responsive {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}

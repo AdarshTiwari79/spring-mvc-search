@@ -1,0 +1,1 @@
+alert("testing that js static file is served properly...")
